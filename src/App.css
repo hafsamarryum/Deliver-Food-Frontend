@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter",sans-serif;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(93deg, rgba(255, 255, 255, 0.21) 35.02%, rgba(249, 253, 250, 0.20) 36.38%, rgba(223, 244, 230, 0.18) 41.97%, rgba(15, 170, 70, 0.00) 87.43%);
+  background-size: cover;
+  background-position: center;
+  padding: 5px 8%;
+}
+nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+nav ul{
+  list-style: none;
+  width: 100%;
+  text-align: right;
+}
+nav ul li{
+  display: inline-block;
+  margin: 10px 20px;
+}
+nav ul li a{
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: normal;
+  transition: text-decoration 0.3s;
+}
+nav ul li a:hover{
+  color: #ff5c11 !important;
+  text-decoration: underline;
+}
+.btn_register{
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.7rem;
+  border: 0;
+  outline: 0;
+  border-radius: 6px;
+  background: #ff5344;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* hero container */
+.content{
+  margin-top: 6%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+.hero-text{
+  text-align: center;
+  font-family: Alice;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.content_span{
+  color: #f88424;
+  font-size: 2.5rem;
+  font-family: Alice;
+}
+.content-alice{
+  color: #000;
+  font-family: Alice;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 1rem;
+}
+.content h1{
+  color: #000000;
+  font-family: Alice;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.content form{
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 0.1rem;
+}
+input[type=text]{
+  border: 1px solid rgb(228,288,288) !important; /*  It will keep the first !important property and not update. */
+  padding: 1.1rem;
+  border-radius: 12px 0px 0px 12px;
+}
+.content form input{
+  width: 100%;
+  font-size: 1rem;
+  padding-left: 10px;
+  border: 0;
+  outline: 0;
+}
+.btn_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn_sec{
+  display: flex;
+  align-items: center;
+  padding: 1.3rem 1.5rem;
+  border: 0;
+  outline: 0;
+  border-radius: 6px;
+  background: #ff5344;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+}
+.image{
+  margin-top: 5rem;
+  height: 60vh;
+}
